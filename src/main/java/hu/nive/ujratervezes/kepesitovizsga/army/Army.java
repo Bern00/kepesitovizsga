@@ -13,8 +13,11 @@ public class Army {
     } //amivel egy katonai egységet tudunk hozzáadni a sereghez,
 
     public void damageAll(int damage){
-        for(MilitaryUnit militaryUnit: militaryUnits){
-            militaryUnit.sufferDamage(damage);
+        for(int i = 0; i < militaryUnits.size(); i++){
+            militaryUnits.get(i).sufferDamage(damage);
+            if(militaryUnits.get(i).getHitPoints() < 25){
+                militaryUnits.remove(i);
+            }
         }
     } //ami a sereg minden egységének életerejéből levonja a paraméterül kapott értéket, valamint eltávolítja a seregből azokat az egységeket, melyeknek így 25 pont alá csökkent az életerejük (azaz harcképtelenek vagy halottak),
 
