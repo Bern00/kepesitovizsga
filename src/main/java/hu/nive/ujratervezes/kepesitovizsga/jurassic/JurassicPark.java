@@ -1,4 +1,4 @@
-package hu.nive.ujratervezes.kepesitovizsga.jurrasic;
+package hu.nive.ujratervezes.kepesitovizsga.jurassic;
 
 import org.mariadb.jdbc.MariaDbDataSource;
 

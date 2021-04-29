@@ -1,6 +1,5 @@
 package hu.nive.ujratervezes.kepesitovizsga.jurassic;
 
-import hu.nive.ujratervezes.kepesitovizsga.jurrasic.JurassicPark;
 import org.flywaydb.core.Flyway;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
