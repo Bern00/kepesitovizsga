@@ -1,4 +1,4 @@
-package hu.nive.ujratervezes.kepesitovizsga;
+package hu.nive.ujratervezes.kepesitovizsga.addigit;
 
 import hu.nive.ujratervezes.kepesitovizsga.addigits.AddDigits;
 import org.junit.jupiter.api.BeforeEach;
