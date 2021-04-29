@@ -1,5 +1,5 @@
 package hu.nive.ujratervezes.kepesitovizsga.phonebook;
-/*
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -75,5 +75,3 @@ class PhonebookTest {
         assertEquals(expected, actual);
     }
 }
-
- */

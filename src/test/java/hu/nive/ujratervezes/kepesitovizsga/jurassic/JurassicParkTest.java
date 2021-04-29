@@ -1,5 +1,6 @@
 package hu.nive.ujratervezes.kepesitovizsga.jurassic;
-/*
+
+import hu.nive.ujratervezes.kepesitovizsga.jurrasic.JurassicPark;
 import org.flywaydb.core.Flyway;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -20,8 +21,8 @@ class JurassicParkTest {
         MariaDbDataSource dataSource;
         dataSource = new MariaDbDataSource();
         dataSource.setUrl("jdbc:mariadb://localhost:3306/employees?useUnicode=true");
-        dataSource.setUser("employees");
-        dataSource.setPassword("employees");
+        dataSource.setUser("root");
+        dataSource.setPassword("root");
 
         Flyway flyway = Flyway.configure().dataSource(dataSource).load();
 
@@ -40,5 +41,3 @@ class JurassicParkTest {
 
 
 }
-
- */
